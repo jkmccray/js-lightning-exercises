@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  border: 1px dotted black;
+  margin: 10px;
+  flex-basis: 18em;
+  padding: 10px;
+  font-family: 'Slabo 27px', serif;
+  background-color: cadetblue
+}
+
+.name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.title {
+  font-size: 1.25em;
+}
+
+.email {
+  font-size: 1.1em;
+}
